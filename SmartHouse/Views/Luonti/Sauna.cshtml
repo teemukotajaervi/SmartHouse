@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "CreateSauna";
+}
+@section scripts {
+    
+<script src="~/Scripts/Application/CreateSaunaLogic.js"></script>
+
+    <script>
+    $(function () {
+        initCreateASauna();
+    })
+    //$('#AsetaButton4').click(function () {
+    //    window.location.href = '';
+    //})
+    </script>
+}
+<h2>Create Sauna</h2>
+
+<p>
+    <input id="Koodi" code="text" placeholder="koodi" />
+</p>
+<p>
+    <input id="Tyyppi" code="text" placeholder="tyyppi" />
+<p>
+
+<button id="CreateASaunaButton" class="btn btn-primary">
+    Create
+</button>
+
+<p><a class="btn btn-danger" href="http://localhost:5090/Home/Index">Takaisin &raquo;</a></p>
+
+
+  
+

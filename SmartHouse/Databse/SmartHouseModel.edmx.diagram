@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="768ef3637fcd41459942faa5c68f2020" Name="Diagram1">
+        <EntityTypeShape EntityType="SmartHouseModel.Patteri" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartHouseModel.Sauna" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartHouseModel.Sijainti" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartHouseModel.Talo" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartHouseModel.Valo" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <AssociationConnector Association="SmartHouseModel.fk_TaloPatteri" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartHouseModel.FK_Talo_Sauna" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartHouseModel.FK_Talo_Sijainti" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartHouseModel.FK_Talo_Valo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
